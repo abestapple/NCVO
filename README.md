@@ -23,8 +23,8 @@
 
 ## 📸 界面截图 (Screenshots)
 
-![Image](https://github.com/abestapple/NCVO/mainwindow.png)
-![Image](https://github.com/abestapple/NCVO/probe_window.png)
+![Image](https://github.com/abestapple/NCVO/blob/main/mainwindow.png)
+![Image](https://github.com/abestapple/NCVO/blob/main/probe_window.png)
 ---
 ## 🚀 安装指南 (Installation)
 
