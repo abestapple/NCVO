@@ -23,14 +23,15 @@
 
 ## 📸 界面截图 (Screenshots)
 
-*(提示：将代码传到 Github 后，请在这里插入 1-2 张你软件运行时的截图，展示主界面和探针窗口。)*
+![Image](https://github.com/abestapple/NCVO/mainwindow.png)
+![Image](https://github.com/abestapple/NCVO/probe_window.png)
 ---
 ## 🚀 安装指南 (Installation)
 
 确保你已经安装了 Python 3.8 或更高版本。推荐使用虚拟环境。
 **克隆仓库**：
    ```bash
-   git clone [https://github.com/yourusername/Modern-NcView.git](https://github.com/yourusername/Modern-NcView.git)
+   git clone https://github.com/abestapple/NCVO/.git
    cd NCVO
 
 ## 📚 详细使用教程 (User Guide)
