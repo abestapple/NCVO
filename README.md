@@ -1,2 +1,35 @@
-# NCVO
-A modern, interactive NetCDF data viewer built with Python and CustomTkinter. Tailored for WRF/geospatial data, featuring 3D slicing, interactive probing, publication-ready plot styling, and CSV/image exports.  一款基于 Python 的现代化 NetCDF 数据可视化工具。专为气象/流体数据设计，支持多维切片、交互式数据探针、丰富的科研级绘图自定义以及 CSV/高清图像导出。
+# 🌍 NCVO
+
+**NCVO** 是一款基于 Python 和 CustomTkinter 构建的现代化、交互式 NetCDF 数据查看与分析工具，功能仿照ncview进行设计。
+它不仅拥有高颜值的暗黑系 UI，还专为气象学、海洋学及流体力学研究人员（特别是 WRF 模式用户）设计，提供了从**多维数据切片**、**交互式探针**到**出版级图像导出**的一站式工作流。
+
+## ✨ 核心特性 (Key Features)
+
+- 🎨 **现代化 UI 界面**：摒弃传统 Tkinter 的简陋外观，采用深色/浅色自适应的现代卡片式设计。
+- 🔪 **多维空间切片**：支持 X-Y（水平面）、X-Z（垂直剖面）、Y-Z（垂直剖面）快速切换，并可通过滑块轻松浏览时间轴与高度层。
+- 🏔️ **WRF 模式深度兼容**：自动解析真实经纬度 (REAL) 与理想网格 (IDEAL)，支持利用 `PH`, `PHB`, `HGT` 变量进行真实物理高度 (m) 的智能插值。
+- 🔍 **交互式数据探针 (Probe)**：在主云图上点击任意位置，即可弹出独立窗口，一键绘制该点的**时间序列 (T-axis)** 或 **垂直/水平剖面 (1D Profile)**。
+- 🛠️ **极客级绘图自定义**：
+  - 动态渲染 Colormap 预览，支持反转与自定义刻度范围。
+  - 坐标轴刻度支持**直接输入数学运算**（如 `*1000`, `-273.15`，轻松完成单位换算）。
+  - 支持 Latex 语法渲染标题与坐标轴标签（如 `$T_{2m}$`）。
+  - 自由调整长宽比例 (Aspect Ratio)、刻度朝向、刻度间距与图表字体。
+  - Colorbar 全维度控制（水平/垂直、长度、宽度、间距、自定义刻度步长）。
+- 💾 **科研级一键导出**：
+  - **图像导出**：支持导出 PNG, JPG, 高清 TIFF 及矢量图 SVG。导出时后台智能切换至白底黑字，完美适配论文与 PPT。
+  - **数据导出**：支持将当前云图的 2D 矩阵或探针曲线的 1D 序列一键展平并导出为 `.csv` 文件。
+
+---
+
+## 📸 界面截图 (Screenshots)
+
+*(提示：将代码传到 Github 后，请在这里插入 1-2 张你软件运行时的截图，展示主界面和探针窗口。)*
+---
+## 🚀 安装指南 (Installation)
+
+确保你已经安装了 Python 3.8 或更高版本。推荐使用虚拟环境。
+
+1. **克隆仓库**：
+   ```bash
+   git clone [https://github.com/yourusername/Modern-NcView.git](https://github.com/yourusername/Modern-NcView.git)
+   cd NCVO
