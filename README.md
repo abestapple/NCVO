@@ -28,11 +28,10 @@
 ---
 ## 🚀 安装指南 (Installation)
 
-确保你已经安装了 Python 3.8 或更高版本。推荐使用虚拟环境。
-**克隆仓库**：
+确保你已经安装了 Python 3.8 或更高版本。
    ```bash
-   git clone https://github.com/abestapple/NCVO/.git
-   cd NCVO
+   pip install NCVO
+安装成功之后，直接在cmd/powershell 输入 ncvo 回车即可使用
 
 ## 📚 详细使用教程 (User Guide)
 
